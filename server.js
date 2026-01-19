@@ -47,8 +47,8 @@ cors_proxy.createServer({
         changeOrigin: true,
     },
     setHeaders: {
-        'referer': 'https://embedme.top/',
-        'origin': 'https://embedme.top'
+        'referer': 'https://embedhd.org/',
+        'origin': 'https://embedhd.org'
     },
 }).listen(port, host, function() {
     console.log('Running CORS Anywhere on ' + host + ':' + port);
