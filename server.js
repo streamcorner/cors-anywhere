@@ -44,6 +44,7 @@ cors_proxy.createServer({
     httpProxyOptions: {
         // Do not add X-Forwarded-For, etc. headers, because Heroku already adds it.
         xfwd: false,
+        changeOrigin: true,
     },
     setHeaders: {
         'referer': 'https://embedme.top/',
